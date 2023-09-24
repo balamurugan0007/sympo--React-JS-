@@ -2,8 +2,11 @@ import React from 'react'
 import {LiaHandPointRight} from 'react-icons/lia'
 
 import logo from '../../assets/logo-removebg-preview.png'
+import { useNavigate } from 'react-router-dom'
 
 const TextItems = () => {
+
+  const navigate =useNavigate();
   return (
     <div className='px-3 '>
         <h2 className='font-cokie mt-2 lg:mt-5 text-5xl lg:text-7xl font-bold text-slate-50 text-center'>HERTZ 23</h2>
@@ -29,7 +32,7 @@ const TextItems = () => {
                   </div>
 
                   <div className='justify-center  mt-12 px-10 mb-10'>
-                      <button className='font-poppins text-sm lg:text-2xl font-bold text-slate-100 bg-purple-800 rounded-md  w-40 lg:w-80 h-8 lg:h-16 lg:ml-20'>Register</button>
+                      <button className='font-poppins text-sm lg:text-2xl font-bold text-slate-100 bg-purple-800 rounded-md  w-40 lg:w-80 h-8 lg:h-16 lg:ml-20' onClick={()=>navigate('/register')}>Register</button>
                   </div>
 
             </div>
