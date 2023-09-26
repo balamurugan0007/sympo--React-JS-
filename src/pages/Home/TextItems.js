@@ -32,7 +32,7 @@ const TextItems = () => {
                   </div>
 
                   <div className='justify-center  mt-12 px-10 mb-10'>
-                      <button className='font-poppins text-sm lg:text-2xl font-bold text-slate-100 bg-purple-800 rounded-md  w-40 lg:w-80 h-8 lg:h-16 lg:ml-20' onClick={()=>navigate('/register')}>Register</button>
+                      <button className='font-poppins text-sm lg:text-2xl font-bold text-slate-100 bg-purple-800 rounded-md w-80 h-8 lg:h-16  lg:ml-20' onClick={()=>navigate('/register')}>Register</button>
                   </div>
 
             </div>
