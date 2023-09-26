@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import {RiMenu3Line} from "react-icons/ri"
-import logo from '../assets/logo-removebg-preview.png'
+import logo from '../assets/care.png'
 
 const Navbar = () => {
 
@@ -21,7 +21,9 @@ const Navbar = () => {
    
 </div>
 <div className='lg:hidden flex justify-between items-center bg-purple-950 px-3'>
-   <h4 className='font-bold ml-7 m-3  font-cokie text-2xl cursor-pointer  text-slate-50' onClick={()=>navigate('/')}>Hertz</h4>
+   <h4 className='font-bold ml-7 m-3  font-cokie text-2xl cursor-pointer  text-slate-50' onClick={()=>navigate('/')}>
+    <img src={logo} className='w-40 h-20' alt='pic'/>
+   </h4>
         <RiMenu3Line className='text-slate-50 ml-auto'/>
        
    </div>
