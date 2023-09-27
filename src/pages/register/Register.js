@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './style.css'
 import {IoMdArrowBack} from "react-icons/io"
 import { useNavigate } from 'react-router-dom'
-import { UseFectch } from '../../hooks/Usefecth'
+
 //import { usepost } from '../../exel/Exel'
 
 const Register = () => {
@@ -15,10 +15,20 @@ const Register = () => {
    const [department,setdepart]=useState()
    const [college,setcollege]=useState()
 
-    const {datapost}=UseFectch()
-  //  const {sheets}=usepost()
+  
+
 
   
+  //error shows details
+
+  const errdata={
+    "Name":"Please enter your name",
+    "college":"Please enter your College",
+    "Phone":"Please enter your Phone",
+    "Email":"please enter your email",
+    "department":"Please enter your Department",
+    
+  }
 
     const formsubmit =async()=>{
       seterr(null)
@@ -29,26 +39,50 @@ const Register = () => {
         "Department":department,
         "College":college,
        }
-       try {
-        const res = await fetch(
-          "https://sheet.best/api/sheets/7ff174fa-7fe4-497b-b5e9-148af98debf5",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(data),
-          }
-        );
+      if(name===null){
+        seterr(errdata.Name)
 
-        navigate("/")
-        
-      } catch (error) {
-        console.log(error);
+      }
+      else if(email===null){
+        seterr(errdata.Email)
+      }
+      else if(phone===null){
+        seterr(errdata.Phone)
+      }
+      else if(department===null){
+        seterr(errdata.department)
+      }
+      else if(college===null){
+        seterr(errdata.college)
+      }
+      else{
+        try {
+          const res = await fetch(
+            "https://sheet.best/api/sheets/7ff174fa-7fe4-497b-b5e9-148af98debf5",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data),
+            }
+          );
+  
+          navigate("/")
+          seterr(null)
+          
+        } catch (error) {
+          console.log(error);
+        }
       }
 
         
     }
+
+
+ 
+
+
 
   return (
    <div className='px-3'>
@@ -89,7 +123,11 @@ const Register = () => {
            
         </div>
 
-        
+        <div>
+          {
+            err? <p className='text-red-600 font-inter font-bold text-xl'>{err}</p>:null
+          }
+        </div>
 
         <div className="flex justify-end mt-6">
             <button className="px-6 py-2 leading-5 text-white transition-colors duration-200 transform bg-pink-500 rounded-md hover:bg-pink-700 focus:outline-none focus:bg-gray-600 font-poppins" onClick={formsubmit}>Save</button>

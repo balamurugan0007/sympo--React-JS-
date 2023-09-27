@@ -27,14 +27,14 @@ const TextItems = () => {
 
                   <div className='justify-center mt-3  px-4 lg:px-0'>
                       <ul className='justify-center '>
-                        <li className='font-inter font-medium text-sm lg:text-xl text-purple-600 flex items-center'> <LiaHandPointRight className='mr-2 text-slate-200'/><h2>Start-Date: 11 th september </h2> </li>
+                        <li className='font-inter font-medium text-sm lg:text-xl text-purple-600 flex items-center'> <LiaHandPointRight className='mr-2 text-slate-200'/><h2>Start-Date: 20 th October </h2> </li>
                         <li className='font-inter  font-medium text-sm lg:text-xl text-purple-600 flex items-center'><LiaHandPointRight className='mr-2 text-slate-200'/><h2>Registration: </h2></li>
                         <li className='font-inter  font-medium text-sm lg:text-xl text-purple-600 flex items-center'><LiaHandPointRight className='mr-2 text-slate-200'/><h2>Cash prizes will be there </h2></li>
                     </ul>
                   </div>
 
                   <div className='justify-center  mt-12 px-10 mb-10'>
-                      <button className='font-poppins text-sm lg:text-2xl font-bold text-slate-100 bg-purple-800 rounded-md w-80 h-8 lg:h-16  lg:ml-20' onClick={()=>navigate('/register')}>Register</button>
+                      <button className='font-poppins text-sm lg:text-2xl font-bold text-slate-100 bg-purple-800 rounded-md w-60 lg:w-80 h-8 lg:h-16  lg:ml-20' onClick={()=>navigate('/register')}>Register</button>
                   </div>
 
             </div>

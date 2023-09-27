@@ -8,7 +8,7 @@ import Past from './past/Past'
 const Home = () => {
   return (
     <div className='bg-slate-900'>
-      <Navbar/>
+     
       <Banner/>
       <TextItems/>
       <Event/>

@@ -5,7 +5,7 @@ const Card = forwardRef(({res},ref) => {
     <div className="mx-auto px-4 py-8 max-w-xl w-60 lg:w-96 m-5 justify-center">
     <div className="bg-white shadow-2xl rounded-lg mb-6 tracking-wide" >
         <div className="md:flex-shrink-0">
-            <img src={res.img} alt="mountains" className=" lg:96 h-40 lg:h-64 rounded-lg rounded-b-none"/>
+            <img src={res.img} alt="mountains" className=" w-full lg:96 h-40 lg:h-64 rounded-lg rounded-b-none"/>
         </div>
         <div className="px-4 py-2 mt-2">
             <h2 className="font-bold text-2xl font-poppins text-center text-gray-800 tracking-normal">{res.name}</h2>
