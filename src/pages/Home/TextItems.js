@@ -39,6 +39,7 @@ const TextItems = () => {
 
             </div>
         </div>
+        
     </div>
   )
 }

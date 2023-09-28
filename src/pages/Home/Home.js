@@ -4,6 +4,7 @@ import Banner from '../../components/Banner'
 import TextItems from './TextItems'
 import Event from './event'
 import Past from './past/Past'
+import Particpent from './Particpent'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <TextItems/>
       <Event/>
       <Past/>
+      <Particpent/>
     </div>
   )
 }

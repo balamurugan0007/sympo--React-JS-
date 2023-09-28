@@ -11,7 +11,7 @@ import * as yup from "yup"
 import {client} from '../../database/sanity'
 import { DotLoader } from 'react-spinners'
 
-const Register = () => {
+const Page = () => {
     const navigate =useNavigate()
    
 ///============date and time ==============================
@@ -301,4 +301,4 @@ const Register = () => {
   )
 }
 
-export default Register
+export default Page
