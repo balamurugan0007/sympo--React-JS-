@@ -9,7 +9,7 @@ import Footer from './Footer'
 
 const Home = () => {
   return (
-    <div className='bg-slate-900'>
+    <div className='bg-gray-900'>
      
       <Banner/>
       <TextItems/>

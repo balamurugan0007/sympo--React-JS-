@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.16bf95f6.css",
-    "main.js": "/static/js/main.ee5f7e52.js",
+    "main.css": "/static/css/main.bcec03b8.css",
+    "main.js": "/static/js/main.18c4d5ba.js",
+    "static/js/726.4fa2755a.chunk.js": "/static/js/726.4fa2755a.chunk.js",
     "static/js/787.aea6f875.chunk.js": "/static/js/787.aea6f875.chunk.js",
     "static/media/web.mp4": "/static/media/web.4ce2b289a332167570b9.mp4",
     "static/media/second.JPG": "/static/media/second.020c2197e90729dee04d.JPG",
@@ -10,17 +11,19 @@
     "static/media/5.JPG": "/static/media/5.063c0bff2304f7e48f85.JPG",
     "static/media/4.JPG": "/static/media/4.9b5a43040c14747a7801.JPG",
     "static/media/first.JPG": "/static/media/first.076fb667ea0acb82564f.JPG",
-    "static/media/logo-removebg-preview.png": "/static/media/logo-removebg-preview.c20260a5c0bf93354592.png",
+    "static/media/tresure.jpg": "/static/media/tresure.e0a57e58a94da2da6591.jpg",
+    "static/media/paymentId.jpeg": "/static/media/paymentId.e8a46ec954d78b606df3.jpeg",
     "static/media/WhatsApp Image 2023-09-26 at 1.14.32 PM.jpeg": "/static/media/WhatsApp Image 2023-09-26 at 1.14.32 PM.374113fddbee3520b7fc.jpeg",
     "static/media/download.jpeg": "/static/media/download.658d513f7a808967cc0a.jpeg",
     "static/media/E-spots.jpeg": "/static/media/E-spots.2ae1849b8aab2e8ced68.jpeg",
     "index.html": "/index.html",
-    "main.16bf95f6.css.map": "/static/css/main.16bf95f6.css.map",
-    "main.ee5f7e52.js.map": "/static/js/main.ee5f7e52.js.map",
+    "main.bcec03b8.css.map": "/static/css/main.bcec03b8.css.map",
+    "main.18c4d5ba.js.map": "/static/js/main.18c4d5ba.js.map",
+    "726.4fa2755a.chunk.js.map": "/static/js/726.4fa2755a.chunk.js.map",
     "787.aea6f875.chunk.js.map": "/static/js/787.aea6f875.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16bf95f6.css",
-    "static/js/main.ee5f7e52.js"
+    "static/css/main.bcec03b8.css",
+    "static/js/main.18c4d5ba.js"
   ]
 }

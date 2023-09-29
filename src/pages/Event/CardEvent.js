@@ -20,18 +20,17 @@ const ruleses =res.rules
     <h6 class="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
       {res.name}
     </h6>
-    <h4 class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+    <h4 class="mb-2 block font-lora font-bold text-2xl  leading-snug tracking-normal text-blue-gray-900 antialiased">
      Description
     </h4>
     <p class="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
-      Like so many organizations these days, Autodesk is a company in
-      transition. It was until recently a traditional boxed software company
-      selling licenses. Yet its own business model disruption is only part of
-      the story
+    {res.description}
     </p>
 
   {/* =======Rule====*/}
   <div className='rules mt-5 mb-5' id='rules'>
+
+      
         <h2 className='font-lora font-bold text-xl text-purple-700'>Rules :</h2>
          
 

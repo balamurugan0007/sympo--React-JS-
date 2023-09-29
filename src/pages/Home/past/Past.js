@@ -4,7 +4,7 @@ import images from './images'
 const Past = () => {
   return (
     <div className='lg:px-10  justify-center'>
-        <h2 className='lg:text-3xl text-xl lg:mb-10 font-bold font-lora text-slate-300 text-center lg:mt-16 '>[ Past Year ]</h2>
+        <h2 className='lg:text-3xl text-xl lg:mb-10 font-bold font-lora text-slate-300 text-center lg:mt-16 '>[ Glimpse of Hertz 23 ]</h2>
        <div className=" shadow-2xl ml-4 rounded-lg mb-6 tracking-wide justify-center flex-wrap lg:flex" >
            {
             images && images.map((res)=>(

@@ -6,6 +6,8 @@ import Errorpage from "./pages/404/Errorpage";
 import Navbar from "./components/navbar";
 import Page from "./pages/register/Page";
 
+import EventList from "./pages/Eventpages/EventList";
+
 function App() {
   return (
     <Router>
@@ -15,6 +17,7 @@ function App() {
               <Route path="/register" element={<Page/>}/>
               <Route path="/event/:id/:name" element={<Eventpage/>}/>
               <Route path="*" element={<Errorpage/>}/>
+              <Route path="/event_list" element={<EventList/>}/>
         </Routes>
     </Router>
   );

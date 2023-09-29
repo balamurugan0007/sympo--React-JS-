@@ -9,8 +9,9 @@ import chest from "./tresure.jpg"
 export default [
     {
         "id":1,
+        "main":"Project Expo",
         "name":"Electro Tech Expo",
-        "description":"",
+        "description":"If you could provide more details about the specific Expo-related project you're referring to, such as the industry, purpose, goals, or any specific aspects you want to know about, I would be happy to help you create a summary or provide relevant information.",
         "img":expo,
         "rules":[
             {
@@ -31,8 +32,9 @@ export default [
     },
     {
         "id":2,
-        "name":"Tick Talk Tang",
-        "description":"",
+        "main":"Paper presentation",
+        "name":"Tech Talk Tango",
+        "description":"(Paper presentation ) You would need more specific details about the topic of your paper presentation, the key points you want to include, and any specific requirements you have. Please provide me with the necessary information, and I'll be happy to assist you further.",
         "img":paper,
         "rules":[
             {
@@ -52,59 +54,10 @@ export default [
         ]
     },
     {
-        "id":3,
-        "name":"E-spots",
-        "description":"",
-        "img":Espot,
-        "rules":[
-            {
-                "id":1,
-                "rule":"Only squad match in Bermuda Map.Character Skills and Gun skins will be Turned off."
-            },
-            {
-                "id":2,
-                "rule":"Team up and hacking is prohibited .Participants are asked to bring the mobile phones and Wi-Fi will not be provided ."
-            },
-            {
-                "id":3,
-                "rule":" Player must use only Guest Id .The decision of the Jury will be Final . Players should not use the Emote While playing.",
-
-            },
-            {
-                "id":4,
-                "rule":"Technical content no general topics"
-            },
-            {
-                "id":5,
-                "rule":"Have to send abstarct before the given date"
-            }
-        ]
-    },
-    {   "id":4,
-        "name":"FootLoose Frenzy",
-        "description":"",
-        "img":dance,
-        "rules":[
-            {
-                "id":1,
-                "rule":"2-3 minute for every person to show your dance skill."
-            },
-            {
-                "id":2,
-                "rule":"On the spot song will be played by the co-ordinator"
-            },
-            {
-                "id":3,
-                "rule":"The decision of the jury will be final.",
-
-            },
-           
-        ]
-    },
-    {
         "id":5,
+        "main":"On spot Presentation",
         "name":"Minute Madness",
-        "description":"",
+        "description":"It seems like you're looking for a short summary of a speech. However, you haven't provided specific details about the speech you're referring to. If you could provide more context or specific information about the speech, I'd be happy to help you create a summary!",
         "img":minute,
         "rules":[
             {
@@ -126,7 +79,54 @@ export default [
 
     },
     {
+        "id":3,
+        "main":"Free Fire",
+        "name":"E-sports",
+        "description":"Esports, short for electronic sports, refers to competitive video gaming where professional players and teams compete in various video game titles. These competitions are often organized into leagues, tournaments, and championships, attracting large audiences both online and in arenas. Esports has grown rapidly in popularity, with players earning sponsorships, salaries, and tournament winnings.",
+        "img":Espot,
+        "rules":[
+            {
+                "id":1,
+                "rule":"Only squad match in Bermuda Map.Character Skills and Gun skins will be Turned off."
+            },
+            {
+                "id":2,
+                "rule":"Team up and hacking is prohibited .Participants are asked to bring the mobile phones and Wi-Fi will not be provided ."
+            },
+            {
+                "id":3,
+                "rule":"The decision of the Jury will be Final . Players should not use the Emote While playing.",
+
+            },
+          
+        ]
+    },
+    {   "id":4,
+    "main":"Dance",    
+    "name":"FootLoose Frenzy",
+        "description":"Foot loose is solo dance competition.it is a form of artistic expression where a single dancer takes the stage , captivating the audience through movement, emotion and storytelling",
+        "img":dance,
+        "rules":[
+            {
+                "id":1,
+                "rule":"2-3 minute for every person to show your dance skill."
+            },
+            {
+                "id":2,
+                "rule":"On the spot song will be played by the co-ordinator"
+            },
+            {
+                "id":3,
+                "rule":"The decision of the jury will be final.",
+
+            },
+           
+        ]
+    },
+   
+    {
         "id":6,
+        "main":"Music",
         "name":"Rhythm Rivival",
         "description":"",
         "img":song,
@@ -149,21 +149,22 @@ export default [
     }
     ,{
         "id":7,
+        "main":"Treasure hunt",
         "name":"Real Hunters",
         "description":"",
         "img":chest,
         "rules":[
             {
                 "id":1,
-                "rule":"All teams must have at least 3 members and no more Than 5 members.Teams must stay together during the treasure hunt And are encouraged to work together to solve the Clues"
+                "rule":"Preliminary round(quiz)  will be conducted.12 team will selected for the ‘’Real Hunters’’ event. All teams must have 8 members. Teams must stay together during the treasure hunt and are encouraged to work together to solve the Clues. "
             },
             {
                 "id":2,
-                "rule":"Disqualification will result from any of the following: Damaging any property ,Interfering with other teams or their member in Any way, Copying from other teams."
+                "rule":"Interfering with other teams or their member in any way. Copying from other teams. "
             },
             {
                 "id":3,
-                "rule":" The clues are to be found in a particular order.A team Cannot skip a due.Skipping a due leads to Disqualification of the team ",
+                "rule":" There is a time limit of 1 hr for all the competing Teams to find the treasure. The clues are to be found in a particular order. A team cannot skip a clue. Skipping a clue leads to Disqualification of the team. ",
 
             },
         ]

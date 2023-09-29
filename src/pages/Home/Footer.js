@@ -6,18 +6,15 @@ const Footer = () => {
     <div>
    
 <footer className="relative bg-blueGray-200 pt-8 pb-6 bg-slate-100">
-    <h2 className='text-xl lg:text-2xl font-lora font-bold text-purple-700 text-center lg:mb-5 mt-2'>Department Of Electronics and Communication Engineering </h2>
+    <h2 className='text-xl lg:text-2xl font-lora font-bold text-purple-700 text-center lg:mb-5 mt-4 lg:mt-1'>Department Of Electronics and Communication Engineering </h2>
   <div className="container mx-auto px-4">
     <div className="flex flex-wrap text-left lg:text-left">
       <div className="w-full lg:w-6/12 px-4">
-        <h4 className="text-3xl font-bold text-blueGray-700 font-inter">Let's keep in touch!</h4>
-        <h5 className="text-lg mt-0 mb-2 text-blueGray-600 font-poppins">
+        <h4 className="text-3xl font-bold text-blueGray-700 font-inter mt-4 lg:mt-0 ">Let's keep in touch!</h4>
+        <h5 className="text-lg  mb-2 text-blueGray-600 font-poppins lg:mt-0 mt-3">
          Contact links
         </h5>
         <div className="mt-6 lg:mb-0 mb-6">
-          <button className=" px-2 bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-           <ImMail className='w-5 h-5 '/> </button>
-            
             <button className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
             <i className="fab fa-facebook-square"></i></button>
             
@@ -29,12 +26,12 @@ const Footer = () => {
           </button>
         </div>
 
-        <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2 mt-3">Event co-ordinator </span>
+        <span className="block uppercase text-blueGray-500  text-sm font-semibold mb-2 mt-3">Event co-ordinator </span>
          <div className='px-3'>
              <span className='lg:flex'>
             <div className='flex items-center'>
             <AiOutlineUser/> 
-                <h4 className='font-medium text-md text-slate-600 ml-1 mr-3'>KanchuLokesh -</h4>
+                <h4 className='font-medium text-md font-roboto text-slate-600 ml-1 mr-3'>KanchuLokesh -</h4>
             </div>
                 <p>7729885753</p>
              </span>
@@ -42,7 +39,7 @@ const Footer = () => {
              <span className='lg:flex'>
              <div className='flex items-center'>
              <AiOutlineUser/>
-             <h4 className='font-medium text-md text-slate-600 ml-1 mr-3'> Anandha Chandru -</h4>
+             <h4 className='font-medium text-md font-roboto text-slate-600 ml-1 mr-3'> Anandha Chandru -</h4>
              </div>
                 <p>7397741508</p>
              </span>
@@ -52,7 +49,7 @@ const Footer = () => {
       <div className="w-full lg:w-6/12 px-4">
         <div className="flex flex-wrap items-top mb-6">
           <div className="w-full lg:w-4/12 px-4 ml-auto">
-            <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Devloper Contact</span>
+            <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2 mt-4 lg:mt-0">Devloper Contact</span>
             <ul className="list-unstyled">
               <li>
                 <a className="text-blueGray-600 hover:text-blueGray-800 font-inter font-semibold block pb-2 text-sm" href="https://balamurugan-portfolio.web.app/">Portfolio</a>
@@ -69,7 +66,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="w-full lg:w-4/12 px-4">
-            <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+            <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2 lg:mt-0 mt-4">Other Resources</span>
             <ul className="list-unstyled">
               <li>
                 <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">License</a>
