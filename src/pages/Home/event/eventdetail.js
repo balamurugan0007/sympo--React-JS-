@@ -87,25 +87,18 @@ export default [
         "rules":[
             {
                 "id":1,
-                "rule":"Two members in a team"
+                "rule":"2-3 minute for every person to show your dance skill."
             },
             {
                 "id":2,
-                "rule":"Maximum 10 slides"
+                "rule":"On the spot song will be played by the co-ordinator"
             },
             {
                 "id":3,
-                "rule":" 7 mins per team presentation ",
+                "rule":"The decision of the jury will be final.",
 
             },
-            {
-                "id":4,
-                "rule":"Technical content no general topics"
-            },
-            {
-                "id":5,
-                "rule":"Have to send abstarct before the given date"
-            }
+           
         ]
     },
     {
@@ -116,25 +109,18 @@ export default [
         "rules":[
             {
                 "id":1,
-                "rule":"Two members in a team"
+                "rule":"Each team must comprise of two members.Electronics Related Topics will be given on the day of event"
             },
             {
                 "id":2,
-                "rule":"Maximum 10 slides"
+                "rule":"3 minute for every team to explain the topic . "
             },
             {
                 "id":3,
-                "rule":" 7 mins per team presentation ",
+                "rule":" The decision of the jury will be final.",
 
             },
-            {
-                "id":4,
-                "rule":"Technical content no general topics"
-            },
-            {
-                "id":5,
-                "rule":"Have to send abstarct before the given date"
-            }
+            
         ]
 
 
@@ -158,14 +144,7 @@ export default [
                 "rule":"ROUND 3:INTRO LYRIC Winning team should elect one member to play this round Some part of the song will be played you have to guess the first line of the song Right answers will be awarded with points Team with highest score is the winner",
 
             },
-            {
-                "id":4,
-                "rule":""
-            },
-            {
-                "id":5,
-                "rule":""
-            }
+           
         ]
     }
     ,{

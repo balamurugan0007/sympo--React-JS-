@@ -77,10 +77,10 @@ const Page = () => {
         
     }),     onSubmit:async(userInputData)=>{
 
-            //const submitdata={...userInputData ,Payment:doc.url }
-            console.log(userInputData)
+            const submitdata={...userInputData ,Payment_img:paymentUrl ,Payment:status }
+            console.log(submitdata)
 
-            formsubmit(userInputData)
+            formsubmit(submitdata)
       
   }
 
@@ -144,14 +144,16 @@ const Page = () => {
     //file upload to database 
 
     const [doc,setdoc]=useState(null)
-    const [file,setfile]=useState()
+    const [file,setfile]=useState(false)
+    const [paymentUrl ,setpayment]=useState("No Payment Available")
     const [loading ,setloading]=useState()
+    const [status ,setstatus]=useState("Offline")
     
 
     function paymentUpload(e) {
         setloading(true)
         setfile(false)
-        
+        setstatus("Offline")
        
         const selectedFile = e.target.files[0];
         // uploading asset to sanity
@@ -173,6 +175,9 @@ const Page = () => {
               console.log(document)
               setdoc(document)
               setloading(false)
+              setstatus("Online")
+              setpayment(document.url)
+              
             
 
             })
@@ -186,7 +191,12 @@ const Page = () => {
         setfile(true)
   
       }
+
+     
     }
+
+
+   
 
  
 
@@ -252,6 +262,15 @@ const Page = () => {
             </div>
 
             <div>
+                <label className="text-white font-poppins dark:text-gray-200" for="username">Phone</label>
+                <input id="username" type="text" className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" name='Phone'onChange={formik.handleChange} value={formik.values.Phone} />
+                {formik.errors.Phone ?
+                            <div className='text-red-500 font-poppins font-medium text-md'> * {formik.errors.Phone}</div>
+                            :null}
+            </div>
+
+
+            <div>
                 <label className="text-white font-poppins dark:text-gray-200" for="username">Whatsapp</label>
                 <input id="username" type="text" className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" name='Whatsapp' onChange={formik.handleChange} value={formik.values.Whatsapp}/>
                 
@@ -276,7 +295,11 @@ const Page = () => {
               {
                 doc ? <div className='w-40 h-40 justify-center'>
                   <img src={doc.url} alt='pic' className='w-full h-full object-contain '/>
-                  <button className='text-sm text-slate-100 bg-red-800 rounded-md w-20 h-12 ' onClick={()=>setdoc(null)}>Cancel</button>
+                  <button className='text-sm text-slate-100 bg-red-800 rounded-md w-20 h-12 ' onClick={()=>{
+                    setdoc(null)
+                    setpayment("No Payment Available")
+                    setstatus("Offline")
+                  }}>Cancel</button>
                 </div> :
                 <div>
                   <label className='text-white font-poppins'>Upload payment Image</label>
@@ -284,6 +307,8 @@ const Page = () => {
                 </div>
               }
             </div>
+
+            {file && <p>Please Upload Image file</p>}
            
         </div>
 
