@@ -10,7 +10,7 @@ const TextItems = () => {
   return (
     <div className='px-3 '>
         <h2 className='font-cokie mt-2 lg:mt-5 text-5xl lg:text-7xl font-bold text-slate-50 text-center'>HERTZ 23</h2>
-
+        <h2 className='font-cokie mt-2 lg:mt-5 text-5xl lg:text-7xl font-bold text-slate-50 text-center'>2.0</h2>
         <div className='lg:flex mt-5  items-center '>
             <div className='lg:w-1/2 lg:block hidden'>
                <div className='bg-slate-700 lg:w-96 h-60 lg:ml-auto lg:mr-40'>
@@ -27,8 +27,8 @@ const TextItems = () => {
 
                   <div className='justify-center mt-3  px-4 lg:px-0'>
                       <ul className='justify-center '>
-                        <li className='font-inter font-medium text-sm lg:text-xl text-purple-600 flex items-center'> <LiaHandPointRight className='mr-2 text-slate-200'/><h2>Start-Date: 20 th October </h2> </li>
-                        <li className='font-inter  font-medium text-sm lg:text-xl text-purple-600 flex items-center'><LiaHandPointRight className='mr-2 text-slate-200'/><h2>Registration: </h2></li>
+                        <li className='font-inter font-medium text-sm lg:text-xl text-purple-600 flex items-center'> <LiaHandPointRight className='mr-2 text-slate-200'/><h2>Date: 20 th October </h2> </li>
+                        <li className='font-inter  font-medium text-sm lg:text-xl text-purple-600 flex items-center'><LiaHandPointRight className='mr-2 text-slate-200'/><h2>Registration -Fees: 200 /- </h2></li>
                         <li className='font-inter  font-medium text-sm lg:text-xl text-purple-600 flex items-center'><LiaHandPointRight className='mr-2 text-slate-200'/><h2>Cash prizes will be there </h2></li>
                     </ul>
                   </div>

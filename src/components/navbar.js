@@ -16,9 +16,7 @@ const Navbar = () => {
       <h4 className='font-medium ml-7 m-3  font-poppins text-md cursor-pointer  text-slate-300 hover:text-slate-50 hover:border-b-2 border-blue-700' onClick={()=>navigate('/')}>Home</h4>
       <h4 className='font-medium ml-7 m-3  font-poppins text-md cursor-pointer  text-slate-300 hover:text-slate-50 hover:border-b-2 border-blue-700' onClick={()=>navigate('/register')}>Register</h4>
 
-      <h4 className='font-medium ml-7 m-3  font-poppins text-md cursor-pointer  text-slate-300 hover:text-slate-50 hover:border-b-2 border-blue-700' onClick={()=>navigate('/about')}>About</h4>
-
-      <h4 className='font-medium ml-7 m-3  font-poppins text-md cursor-pointer  text-slate-300 hover:text-slate-50 hover:border-b-2 border-blue-700'onClick={()=>navigate('/contact')}>contacts</h4>
+      
    </div>
    
 </div>
