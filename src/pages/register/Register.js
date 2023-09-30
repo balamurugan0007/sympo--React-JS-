@@ -3,6 +3,7 @@ import './style.css'
 import {IoMdArrowBack} from "react-icons/io"
 import { useNavigate } from 'react-router-dom'
 import paymentId from "../../assets/paymentId.jpeg"
+import {BsWhatsapp} from "react-icons/bs"
 
 //import { usepost } from '../../exel/Exel'
 import{useFormik } from "formik"
@@ -10,6 +11,7 @@ import * as yup from "yup"
 
 import {client} from '../../database/sanity'
 import { DotLoader } from 'react-spinners'
+import { SpeedDialHandler } from '@material-tailwind/react'
 
 const Register = () => {
     const navigate =useNavigate()
@@ -196,7 +198,7 @@ const Register = () => {
    <div className='px-3'>
         <div className='flex justify-center items-center mr-3 lg:mr-0'>
            <IoMdArrowBack className=' w-16 h-10 text-slate-300 mr-3 mt-4 lg:mt-0' onClick={()=>navigate('/')}/>
-            <h2 className='font-cokie font-bold text-xl lg:text-5xl text-slate-100 mt-5 text-center'>HERTZ  23</h2>
+            <h2 className='font-lora font-bold text-xl lg:text-5xl text-slate-100 mt-5 text-center'>HERTZ'23</h2>
         </div>
     <section className="max-w-4xl p-6 mx-auto bg-indigo-600 rounded-md shadow-md dark:bg-gray-800 mt-20">
     <h1 className="text-xl font-bold text-white capitalize text-center text-lora dark:text-white">Register</h1>
@@ -243,6 +245,8 @@ const Register = () => {
                             :null}
             </div>
 
+           
+
             <div>
                 <label className="text-white font-poppins dark:text-gray-200" for="username">Year</label>
                 <input id="username" type="text" className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" name='Year'onChange={formik.handleChange} value={formik.values.Year} />
@@ -287,6 +291,19 @@ const Register = () => {
            
         </div>
 
+       
+         
+    
+
+        
+        <div className='flex items-center bg-white'>
+  <h2 className='font-poppins font-medium text-md text-slate-700'>join our WhatsApp Group for Event Updates</h2>
+           <a href='https://chat.whatsapp.com/Jlcp3KBZozM2yF8Aya2Xqs'>
+           <span className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+             <BsWhatsapp className='text-green-600 w-10 h-10'/>
+          </span>
+           </a>
+  </div>
      
 
 
@@ -295,6 +312,8 @@ const Register = () => {
         </div>
     </form>
 </section>
+
+ 
 
  
    </div>

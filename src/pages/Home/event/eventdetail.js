@@ -20,7 +20,7 @@ export default [
             },
             {
                 "id":2,
-                "rule":"Hardware Project only Allowed "
+                "rule":"Hardware Project related to circuit Department only Allowed "
             },
             {
                 "id":3,
@@ -43,7 +43,7 @@ export default [
             },
             {
                 "id":2,
-                "rule":"Maximum 10 slides .7 mins per team presentation"
+                "rule":"Maximum 10 slides .5 mins presentation and 2 mins Quary"
             },
             {
                 "id":3,
@@ -66,7 +66,7 @@ export default [
             },
             {
                 "id":2,
-                "rule":"3 minute for every team to explain the topic . "
+                "rule":"Three minute for every team to explain the topic . "
             },
             {
                 "id":3,
@@ -109,15 +109,15 @@ export default [
         "rules":[
             {
                 "id":1,
-                "rule":"2-3 minute for every person to show your dance skill."
+                "rule":" solo or maximum two members allowed in a Team ."
             },
             {
                 "id":2,
-                "rule":"On the spot song will be played by the co-ordinator"
+                "rule":"First Round 2-3 minute for every person to show your dance skill. On the spot song will be played by the co-ordinator"
             },
             {
                 "id":3,
-                "rule":"The decision of the jury will be final.",
+                "rule":"Final Roud 4-5 minute for team .The decision of the jury will be final.",
 
             },
            

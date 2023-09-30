@@ -21,11 +21,9 @@ const ruleses =res.rules
       {res.name}
     </h6>
     <h4 class="mb-2 block font-lora font-bold text-2xl  leading-snug tracking-normal text-blue-gray-900 antialiased">
-     Description
+     {res.main}
     </h4>
-    <p class="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
-    {res.description}
-    </p>
+  
 
   {/* =======Rule====*/}
   <div className='rules mt-5 mb-5' id='rules'>
@@ -36,17 +34,17 @@ const ruleses =res.rules
 
         <div className='px-4 mt-2 '>
                 <div className='flex mt-2'>
-                  <p className='ml-2 '>{res.rules[0].id}.</p>
+                  <p className='ml-2 '>{res.rules[0].id}</p> <p>).</p>
                   <h2 className='font-poppins font-medium text-md text-slate-700'> {res.rules[0].rule}</h2>
                 </div>
 
                 <div className='flex mt-2'>
-                  <p className='ml-2 '>{res.rules[1].id}.</p>
+                  <p className='ml-2 '>{res.rules[1].id}</p> <p>).</p>
                   <h2 className='font-poppins font-medium text-md text-slate-700'> {res.rules[1].rule}</h2>
                 </div>
 
                 <div className='flex mt-2'>
-                  <p className='ml-2'>{res.rules[2].id}.</p>
+                  <p className='ml-2'>{res.rules[2].id}</p> <p>).</p>
                   <h2 className='font-poppins font-medium text-md text-slate-700'> {res.rules[2].rule}</h2>
                 </div>
 
@@ -109,27 +107,31 @@ const ruleses =res.rules
     />
   </div>
   <div class="p-6">
-    <h4 class="block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 text-center antialiased">
+  <h6 class="mb-4 block font-sans text-base text-center font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
       {res.name}
-    </h4>
+    </h6>
     {/* =======Rule====*/}
   <div className='rules mt-5 mb-5' id='rules'>
+  <h4 class="mb-2 block font-lora font-bold text-2xl  leading-snug tracking-normal text-blue-gray-900 antialiased">
+     {res.main}
+    </h4>
+  
         <h2 className='font-lora font-bold text-xl text-purple-700'>Rules :</h2>
          
 
         <div className='px-4 mt-2 '>
                 <div className='flex mt-2'>
-                  <p className='ml-2 '>{res.rules[0].id}.</p>
+                  <p className='ml-2 '>{res.rules[0].id}</p><p>).</p>
                   <h2 className='font-poppins font-medium text-md text-slate-700'> {res.rules[0].rule}</h2>
                 </div>
 
                 <div className='flex mt-2'>
-                  <p className='ml-2 '>{res.rules[1].id}.</p>
+                  <p className='ml-2 '>{res.rules[1].id}</p><p>).</p>
                   <h2 className='font-poppins font-medium text-md text-slate-700'> {res.rules[1].rule}</h2>
                 </div>
 
                 <div className='flex mt-2'>
-                  <p className='ml-2'>{res.rules[2].id}.</p>
+                  <p className='ml-2'>{res.rules[2].id}</p><p>).</p>
                   <h2 className='font-poppins font-medium text-md text-slate-700'> {res.rules[2].rule}</h2>
                 </div>
 
