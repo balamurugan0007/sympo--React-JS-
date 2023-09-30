@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import {RiMenu3Line} from "react-icons/ri"
-import logo from '../assets/care.png'
+import logo from '../assets/care3.png'
 
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
     const navigate=useNavigate();
   return (
    <div className='w-full bg-purple-950'>
-     <div className='flex px-10  justify-center items-center bg-purple-950'>
+     <div className='flex px-10  justify-center items-center'>
    
    <div className='hidden lg:flex p-3 items-center'>
    <img src={logo} className='w-40 h-12 m-3' alt='pic'/>

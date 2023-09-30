@@ -55,7 +55,7 @@ export default [
     },
     {
         "id":5,
-        "main":"On spot Presentation",
+        "main":"spot Presentation",
         "name":"Minute Madness",
         "description":"It seems like you're looking for a short summary of a speech. However, you haven't provided specific details about the speech you're referring to. If you could provide more context or specific information about the speech, I'd be happy to help you create a summary!",
         "img":minute,
